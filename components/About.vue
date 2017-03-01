@@ -7,11 +7,11 @@
     </div>
     <div class="hero-body">
       <div class="container">
-        <p class="subtitle is-4">
+        <p class="subtitle is-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque animi a doloremque iure et perferendis laudantium accusantium, consectetur quae quam quaerat. Libero tenetur, nisi natus odio illum optio aut, nihil ipsa aspernatur accusamus saepe molestias, totam illo delectus voluptatibus vero harum. Est, et. Ducimus sunt quidem vero. Nisi, eius!
         </p>
         <br>
-        <p class="subtitle is-4">
+        <p class="subtitle is-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nam vel itaque quos adipisci, ipsum ducimus! Perferendis odio ipsa nam rem quo! Maiores perspiciatis amet deleniti, itaque voluptatum excepturi nam.
         </p>
       </div>
