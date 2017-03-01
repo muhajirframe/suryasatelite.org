@@ -7,7 +7,7 @@
     </div>
     <div class="hero-body">
       <div class="container">
-        <div class="columns is-mobile is-multiline">
+        <div class="columns is-multiline">
           <a v-for="item in contacts" class="column is-half">
             <span class="icon is-large">
               <img :src="`/${item.type}.svg`" width="100%">
