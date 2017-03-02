@@ -26,6 +26,9 @@
   font-size: 1.1rem;
   background-color: #2c3e50;
 }
+a:hover {
+  color: #00d1b2;
+}
 </style>
 
 <script>

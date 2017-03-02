@@ -30,7 +30,9 @@
 }
 p {
   margin-top: 2rem;
-  color: #555;
   font-size: 1.1rem;
+}
+p, .title {
+  color: #555;
 }
 </style>
