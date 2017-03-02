@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-1">
-          {{ error.statusCode }}
+          Error {{ error.statusCode }}
         </h1>
         <h2 class="subtitle is-2">
           {{ error.message }}
@@ -17,7 +17,7 @@
 </template>
 <style scoped>
 .hero {
-  background-color: #e74c3c;
+  background-color: #EC644B;
 }
 .title, .subtitle {
   color: #fff;
