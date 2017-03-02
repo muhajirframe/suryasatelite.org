@@ -9,7 +9,7 @@
         </div>
         <div class="level-item">
           <div class="tagline">
-            <h1 class="title is-1">Surya Satelite 1</h1>
+            <h1 class="title is-2">Surya Satelite 1</h1>
             <br />
             <h2 class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, nihil.</h2>
             <br />
