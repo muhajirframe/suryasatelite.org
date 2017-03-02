@@ -7,18 +7,18 @@
         </nuxt-link>
       </div>
 
-      <span class="nav-toggle">
+      <span class="nav-toggle" :class="{ 'is-active': dropdown }" @click="dropdown = !dropdown">
       <span></span>
       <span></span>
       <span></span>
       </span>
-      
-      <div class="nav-right nav-menu">
-        <nuxt-link to="/" class="nav-item is-tab is-hidden-mobile is-active">Home</nuxt-link>
-        <nuxt-link to="/about" class="nav-item is-tab is-hidden-mobile">About</nuxt-link>
-        <nuxt-link to="/team" class="nav-item is-tab is-hidden-mobile">Team</nuxt-link>
-        <nuxt-link to="/donate" class="nav-item is-tab is-hidden-mobile">Donate</nuxt-link>
-      </div>
+
+     <div class="nav-right nav-menu" :class="{ 'is-active': dropdown }">
+      <nuxt-link to="/" active-class="is-active" class="nav-item is-tab" exact>Home</nuxt-link>
+      <nuxt-link to="/about" active-class="is-active" class="nav-item is-tab">About</nuxt-link>
+      <nuxt-link to="/team" active-class="is-active" class="nav-item is-tab">Team</nuxt-link>
+      <nuxt-link to="/donate" active-class="is-active" class="nav-item is-tab">Donate</nuxt-link>
+    </div> 
 
     </div>
   </nav>
@@ -33,3 +33,12 @@
 }
 </style>
 
+<script>
+export default {
+  data: function () {
+    return {
+      dropdown: false
+    }
+  }
+}
+</script>
