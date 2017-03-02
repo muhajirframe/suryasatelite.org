@@ -2,13 +2,13 @@
   <footer class="footer">
     <div class="container">
       <div class="level">
-        <div class="level-left">
+        <div class="level-item">
           <social-media/>
         </div>
-        <div class="level-right">
-        <p class="">
-          Designed by <a href="https://hellomuhajir.com">Muhammad Muhajir</a>
-        </p>
+        <div class="level-item">
+          <p>
+            Designed by <a href="https://hellomuhajir.com">Muhammad Muhajir</a>
+          </p>
         </div>
       </div>
 
@@ -25,6 +25,15 @@
   color: #fff;
   font-size: 1.1rem;
   background-color: #2c3e50;
+  max-width: 100%;
+}
+@media (max-device-width: 1080px) {
+  .footer>.container>.level {
+    flex-direction: column;
+  }
+}
+.level-item {
+  padding-top: 0.2rem;
 }
 a:hover {
   color: #00d1b2;
