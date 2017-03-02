@@ -28,7 +28,7 @@
 
 <style scoped>
 .hero {
-  background-color: #FF7043;
+  background-color: #34495e;
 }
 .title {
   padding-top: 30px;
@@ -37,6 +37,6 @@
   color: #fff;
 }
 .button:hover.is-warning {
-  color: #FF7043;
+  color: #34495e;
 }
 </style>

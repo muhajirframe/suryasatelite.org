@@ -14,12 +14,22 @@
       </span>
       
       <div class="nav-right nav-menu">
-        <a class="nav-item is-tab is-hidden-mobile is-active">Home</a>
-        <a class="nav-item is-tab is-hidden-mobile">About</a>
+        <nuxt-link to="/" class="nav-item is-tab is-hidden-mobile is-active">Home</nuxt-link>
+        <nuxt-link to="/about" class="nav-item is-tab is-hidden-mobile">About</nuxt-link>
         <nuxt-link to="/team" class="nav-item is-tab is-hidden-mobile">Team</nuxt-link>
-        <a class="nav-item is-tab is-hidden-mobile">Donate</a>
+        <nuxt-link to="/donate" class="nav-item is-tab is-hidden-mobile">Donate</nuxt-link>
       </div>
 
     </div>
   </nav>
 </template>
+
+<style scoped>
+.nav {
+  min-height: 4.5rem;
+}
+.nav-toggle {
+  height: 100%;
+}
+</style>
+
